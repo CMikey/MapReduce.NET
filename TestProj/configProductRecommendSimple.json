@@ -1,0 +1,26 @@
+﻿[
+   {
+      "MapName":"MapReduceSamples.LogMapper",
+      "ReduceName":"MapReduceSamples.Reducer1",
+      "Input":{
+         "Location":"input.txt",
+         "PluginType":"MapReduce.NET.Input.TextfileLineInput"
+      }
+   },
+   {
+      "MapName":"MapReduceSamples.LogMapper",
+      "ReduceName":"MapReduceSamples.Reducer1",
+      "Input":{
+         "Location":"input2.txt",
+         "PluginType":"MapReduce.NET.Input.TextfileLineInput"
+      }
+   },
+   {
+      "MapName":"MapReduceSamples.MapToTransition",
+      "ReduceName":"MapReduceSamples.Reducer2",
+      "Output":{
+         "Location":"productRecommendBin.db3",
+         "PluginType":"MapReduce.NET.Output.SQLiteProtoBufOutput"
+      }
+   }
+]

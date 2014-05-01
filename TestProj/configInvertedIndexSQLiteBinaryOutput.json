@@ -1,0 +1,16 @@
+﻿[
+{
+	"MapName":"MapReduceSamples.InvertedIndexMapper", 
+	"ReduceName":"MapReduceSamples.InvertedIndexReducer",
+	"Input":
+		{
+			"Location":"c:\\temp\\txt\\*.txt", 
+			"PluginType" : "MapReduce.NET.Input.TextfileLineInput"
+		},
+	"Output":
+		{
+			"Location":"bufferBinary.db3", 
+			"PluginType" : "MapReduce.NET.Output.SQLiteProtoBufOutput"
+		}
+}
+]

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MapReduce.aspx.cs" Inherits="MapReduce.Web.MapReduce" %>

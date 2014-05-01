@@ -1,0 +1,30 @@
+﻿[
+{
+	"MapName":"MapReduceSamples.InvertedIndexMapper", 
+	"ReduceName":"MapReduceSamples.InvertedIndexReducer",
+	"Input":
+		{
+			"Location":"big.001", 
+			"PluginType" : "MapReduce.NET.Input.TextfileLineInput"
+		},
+	"Output":
+		{
+			"Location":"buffer1.db3", 
+			"PluginType" : "MapReduce.NET.Output.SQLiteOutput"
+		}
+},
+{
+	"MapName":"MapReduceSamples.InvertedIndexMapper", 
+	"ReduceName":"MapReduceSamples.InvertedIndexReducer",
+	"Input":
+		{
+			"Location":"big.002", 
+			"PluginType" : "MapReduce.NET.Input.TextfileLineInput"
+		},
+	"Output":
+		{
+			"Location":"buffer2.db3", 
+			"PluginType" : "MapReduce.NET.Output.SQLiteOutput"
+		}
+}
+]

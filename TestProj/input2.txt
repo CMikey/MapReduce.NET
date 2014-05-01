@@ -1,0 +1,9 @@
+﻿session101	prod1
+session103	prod2
+session101	prod4
+session111	prod4
+session120	prod5
+session104	prod4
+session109	prod3
+session112	prod2
+session113	prod1

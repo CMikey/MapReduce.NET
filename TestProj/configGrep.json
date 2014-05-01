@@ -1,0 +1,20 @@
+﻿[
+{
+	"MapName":"MapReduceSamples.GrepMapper", 
+	"ReduceName":"MapReduceSamples.GrepReducer",
+	"Input":
+		{
+			"Location":"Shakespeare\\*.txt", 
+			"PluginType" : "MapReduce.NET.Input.TextfileLineInput"
+		},
+	"Output":
+		{
+			"PluginType" : "MapReduce.NET.Output.ConsoleOutput"
+		},
+	"Parameters" : 
+		{
+			"search" : "stricken",
+			"ignorecase" : "true"
+		}
+}
+]

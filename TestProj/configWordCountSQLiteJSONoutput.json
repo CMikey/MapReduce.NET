@@ -1,0 +1,16 @@
+﻿[
+{
+	"MapName":"MapReduceSamples.WordCountMap", 
+	"ReduceName":"MapReduceSamples.WordCountReduce",
+	"Input":
+		{
+			"Location":"Shakespeare\\*.txt", 
+			"PluginType" : "MapReduce.NET.Input.TextfileLineInput"
+		},
+	"Output":
+		{
+			"Location":"wordCount.db3", 
+			"PluginType" : "MapReduce.NET.Output.SQLiteOutput"
+		}
+}
+]

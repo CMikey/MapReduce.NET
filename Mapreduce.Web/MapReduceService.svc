@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Mapreduce.Web.MapReduceService" CodeBehind="MapReduceService.svc.cs" %>

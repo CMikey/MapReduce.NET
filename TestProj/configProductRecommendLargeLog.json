@@ -1,0 +1,26 @@
+﻿[
+{
+	"MapName":"MapReduceSamples.ProductRecommendationMapper", 
+	"ReduceName":"MapReduceSamples.ProductRecommendationReducer",
+	
+	"Input":
+		{
+			"Location":"c:\\temp\\vnylog\\gggr.txt", 
+			"PluginType" : "MapReduce.NET.Input.TextfileLineInput"
+		},
+},
+
+{
+	"MapName":"MapReduceSamples.ProductRecommendationMapperStep2", 
+	"ReduceName":"MapReduceSamples.ProductRecommendationReducerStep2",
+	
+	"Output":
+		{
+			"Location":"productRecommendation.db3", 
+			"PluginType" : "MapReduce.NET.Output.SQLiteOutput"
+		},
+	"Parameters" : 
+		{
+		}
+},
+]

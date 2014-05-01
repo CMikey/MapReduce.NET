@@ -1,0 +1,31 @@
+  *Parameters set from parent automatically
+  *Put MapReduce tasks in separate assembly
+  *Create new SQLite database if file does not exist
+  *Move to abstract (CircularArray, Dictionary)
+  *Before save hook
+  *ZIP the result before download
+  *Console dump output option
+  *dynamic parameters for preconfigured mapreduce tasks (grep)
+
+Beforesave: add new tablename - dictionary(key, value) pairs for saving
+Library for remotely controlling workers
+Create file line splitter (configure the split char)
+Create SQL input
+Create new SQLite database at every Nth record
+Save options to SQLite
+Save log to SQLite
+Create common parent for external merges
+Pluggable custom serializer for Reducer
+Native protobuf binary output
+Replace FastDictionary with Custom implementation
+Console status - restart counters when new MR starts
+Status for in-memory processing (from reducer not IOplugin)
+Send back result from IIS worker
+Set merger in config
+Merge results automatically
+If result is small send back the data instead of SQLite + config option
+Protobuf help - serialize byte[]
+ASP.NET status page
+ASP.NET start/abort
+ASP.NET send config
+Sample for product recommendation
